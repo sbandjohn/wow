@@ -652,6 +652,7 @@ class Arrow extends Weapon{
 
 class Main{
 	public static void main(String args[]){
+		// this is comment
 		Scanner input = new Scanner(System.in);
 		int nCase;
 		nCase=input.nextInt();
