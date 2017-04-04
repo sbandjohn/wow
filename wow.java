@@ -652,9 +652,6 @@ class Arrow extends Weapon{
 
 class Main{
 	public static void main(String args[]){
-		FileInputStream fis=null;
-		try{ fis=new FileInputStream("Warcraft.in"); }
-		catch(FileNotFoundException e){}
 		Scanner input = new Scanner(System.in);
 		int nCase;
 		nCase=input.nextInt();
